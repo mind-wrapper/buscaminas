@@ -53,10 +53,13 @@ class casilla{
                 }
             else
             {
+                setTimeout(function(){
+
+                    msg.classList.remove("none")
+                    msg.classList.add("back")
+                },3000);
                 div.classList=(`item s${this.st}`)
                 const msg=document.querySelector(".none")
-                msg.classList.remove("none")
-                msg.classList.add("back")
             }
         })
         

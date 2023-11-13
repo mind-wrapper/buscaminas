@@ -1,3 +1,7 @@
+
+*{
+    font-family: calibri;
+}
 .container{
     margin: 70px 30%;
     display: grid;
@@ -5,24 +9,24 @@
     grid-template-rows: 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px;
 }
 .unreveal{
-    background: linear-gradient(to right,#d55,#f88);
+    background: linear-gradient(to right,#55d,#88f);
     outline: solid 0.5px;
 }
 .item{
     background: radial-gradient( circle, #ddd, #aaa);
-    outline: solid 0.5px;
+    outline:  black solid 0.5px;
     padding: 5px;
     text-align: center;
-    font-size: large;
+    font-size: 30px;
 }
 .s1{
-    background:rgb(8, 226, 8);
+    color:rgb(17, 94, 17);
 }
 .s2{
-    background:rgb(106, 226, 8);
+    color:rgb(58, 112, 13);
 }
 .s3{
-    background:rgb(168, 226, 8);
+    color:rgb(83, 109, 14);
 }
 .sm{
     background: red;

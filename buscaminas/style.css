@@ -1,0 +1,62 @@
+
+*{
+    font-family: calibri;
+}
+.container{
+    margin: 70px 30%;
+    display: grid;
+    grid-template-columns: 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px ;
+    grid-template-rows: 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px;
+}
+.unreveal{
+    background: linear-gradient(to right,#55d,#88f);
+    outline: solid 0.5px;
+}
+.item{
+    background: radial-gradient( circle, #ddd, #aaa);
+    outline:  black solid 0.5px;
+    padding: 5px;
+    text-align: center;
+    font-size: 30px;
+}
+.s1{
+    color:rgb(17, 94, 17);
+}
+.s2{
+    color:rgb(58, 112, 13);
+}
+.s3{
+    color:rgb(83, 109, 14);
+}
+.sm{
+    background: url(rickroll-roll.gif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.none{
+    display: none;
+}
+.back{
+    width: 100%;
+    height: 100%;
+    background: rgba(46, 46, 46, 0.473)(77, 77, 77);
+    position: absolute;
+
+}
+.msg{
+    background: rgba(170, 168, 168, 0.5);
+    backdrop-filter: blur(5px);
+    height: 200px;
+    width: 400px;
+    margin: 200px auto;
+    font-size: 30px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 15px;
+}
+.holi{
+    margin-top: 15px;
+}

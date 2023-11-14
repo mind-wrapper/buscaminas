@@ -54,10 +54,17 @@ class casilla{
             else
             {
                 setTimeout(function(){
-
+                    for(let i=0;i<minas.length;i++)
+                    {
+                        let mina=document.getElementById(`${minas[i][0]},${minas[i][1]}`)
+                        mina.classList.remove("unreveal")
+                        mina.classList.add("sm")
+                    }
+                },1000);
+                setTimeout(function(){
                     msg.classList.remove("none")
                     msg.classList.add("back")
-                },3000);
+                },2000);
                 div.classList=(`item s${this.st}`)
                 const msg=document.querySelector(".none")
             }

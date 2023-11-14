@@ -53,6 +53,8 @@ class casilla{
                 }
             else
             {
+                const audio=document.getElementById("audio");
+                audio.play()
                 setTimeout(function(){
                     for(let i=0;i<minas.length;i++)
                     {

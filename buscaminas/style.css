@@ -1,5 +1,24 @@
+@keyframes colorines {
+    0%{
+outline: green solid 0.01px;
 
+    }
+    33%{
+outline: red solid 0.01px;
+    }
+    
+    66%{
+outline: yellow solid 0.01px;
+    }
+    100%{
+outline: green solid 0.01px;
+    }
+}
+body{
+    background-color: #558;
+}
 *{
+    border-radius: 10px;
     font-family: calibri;
 }
 .container{
@@ -9,12 +28,17 @@
     grid-template-rows: 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px;
 }
 .unreveal{
+    margin: 0.7px;
     background: linear-gradient(to right,#55d,#88f);
-    outline: solid 0.5px;
+    border: black solid 0.01px;
+}
+.unreveal:hover{
+    animation: colorines 1s infinite;    
 }
 .item{
+    margin: 0.7px;
     background: radial-gradient( circle, #ddd, #aaa);
-    outline:  black solid 0.5px;
+    border:  black solid 0.7px;
     padding: 5px;
     text-align: center;
     font-size: 30px;
@@ -29,7 +53,7 @@
     color:rgb(83, 109, 14);
 }
 .sm{
-    outline:  black solid 0.5px;
+    border:  black solid 0.5px;
     background: url(sources/rickroll-roll.gif);
     background-size: cover;
     background-repeat: no-repeat;

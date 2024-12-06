@@ -35,6 +35,11 @@ body{
 .unreveal:hover{
     animation: colorines 1s infinite;    
 }
+.red{
+    margin: 0.7px;
+    background: linear-gradient(to right,#d55,#f88);
+    border: black solid 0.01px;
+}
 .item{
     margin: 0.7px;
     background: radial-gradient( circle, #ddd, #aaa);

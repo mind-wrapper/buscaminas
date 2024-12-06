@@ -75,11 +75,12 @@ class casilla {
         })
 
         div.addEventListener("contextmenu", (event) => {
+            console.log(div.classList)
             event.preventDefault();
             if (div.classList == "red") {
+                console.log(`hey`)
                 div.classList = "unreveal";
-            }
-            if (div.classList == "unreveal") {
+            }else if (div.classList == "unreveal") {
                 div.classList = "red";
             }
 
